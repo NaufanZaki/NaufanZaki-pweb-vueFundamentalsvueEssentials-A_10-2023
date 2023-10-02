@@ -14,6 +14,7 @@
 export default {
   props: {
     taskText: String,
+    tasks: Array,
   },
   data() {
     return {
